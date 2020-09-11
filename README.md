@@ -1,4 +1,4 @@
-### Hi there!👋 I'm [tPikachu](#)😎 [![HitCount](http://hits.dwyl.com/tpikachu/tpikachu.svg)](http://hits.dwyl.com/tpikachu/tpikachu)
+### Hi there!👋 I'm [tPikachu](#)😎
 
 ![tpikachu's github stats](https://github-readme-stats.vercel.app/api?username=tpikachu&count_private=true&show_icons=true&theme=radical)
 

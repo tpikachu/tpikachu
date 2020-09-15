@@ -58,7 +58,9 @@
 ![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=Amazon&logoColor=white&color=3bac3a)
 
+<hr/>
 
+## Repo
 <a href="https://github.com/thenewboston-developers/Account-Manager">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thenewboston-developers&repo=Account-Manager&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="120px"/>
 </a>    

@@ -10,7 +10,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=tpikachu&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="tpikachu's GitHub Stats"/>
 </a>
 
-<hr/>
 
 ## 🔧 Skills and Tools
 
@@ -56,8 +55,6 @@
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=Amazon&logoColor=white&color=3bac3a)
-
-<hr/>
 
 ## Repo
 <a href="https://github.com/thenewboston-developers/Account-Manager">

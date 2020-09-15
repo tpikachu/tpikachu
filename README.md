@@ -1,50 +1,4 @@
 # Hey, there~ <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-
-## 🔧 Skills and Tools
-
-
-### Web
-
-![](https://img.shields.io/badge/Language-JavaScript_!S-informational?style=flat&logo=javascript&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Language-TypeScript_!S-informational?style=flat&logo=typescript&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Language-PHP_S!-informational?style=flat&logo=php&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Language-Python_A!-informational?style=flat&logo=python&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Language-Go_A!-informational?style=flat&logo=go&logoColor=white&color=1b9c3a)
-
-![](https://img.shields.io/badge/Framework-React_!S-informational?style=flat&logo=react&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Vue_!S-informational?style=flat&logo=vue.js&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Angular_!S-informational?style=flat&logo=angular&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Ruby_On_Rails_!S-informational?style=flat&logo=ruby&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Laravel_!S-informational?style=flat&logo=laravel&logoColor=white&color=1b9c3a)
-
-### Cross-platform & Hybrid
-
-![](https://img.shields.io/badge/Framework-Electron-informational?style=flat&logo=electron&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-React_Native-informational?style=flat&logo=react&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Ionic-informational?style=flat&logo=ionic&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Quasar-informational?style=flat&logo=quasar&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Framework-Native_Script-informational?style=flat&logo=nativescript&logoColor=white&color=1b9c3a)
-
-### DevOps
-![](https://img.shields.io/badge/CI/CD-Github_Action-informational?style=flat&logo=github&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/CI/CD-Jenkins-informational?style=flat&logo=jenkins&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/CI/CD-Circle_CI-informational?style=flat&logo=circleci&logoColor=white&color=1b9c3a)
-
-
-### Database
-
-![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Database-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Database-Sqlite-informational?style=flat&logo=sqlite&logoColor=white&color=1b9c3a)
-
-### Tools
-![](https://img.shields.io/badge/OS-MacOS-informational?style=flat&logo=apple&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=1b9c3a)
-![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=Amazon&logoColor=white&color=1b9c3a)
-
 ## &#x1f4c8; GitHub Stats
 
 
@@ -67,6 +21,50 @@
 </a>
 
 
+## 🔧 Skills and Tools
+
+
+### Web
+
+![](https://img.shields.io/badge/Language-JavaScript_!S-informational?style=flat&logo=javascript&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-TypeScript_!S-informational?style=flat&logo=typescript&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-PHP_S!-informational?style=flat&logo=php&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-Python_A!-informational?style=flat&logo=python&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-Go_A!-informational?style=flat&logo=go&logoColor=white&color=3bac3a)
+
+![](https://img.shields.io/badge/Framework-React_!S-informational?style=flat&logo=react&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Vue_!S-informational?style=flat&logo=vue.js&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Angular_!S-informational?style=flat&logo=angular&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Ruby_On_Rails_!S-informational?style=flat&logo=ruby&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Laravel_!S-informational?style=flat&logo=laravel&logoColor=white&color=3bac3a)
+
+### Cross-platform & Hybrid
+
+![](https://img.shields.io/badge/Framework-Electron_!SS-informational?style=flat&logo=electron&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-React_Native_!S-informational?style=flat&logo=react&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Ionic_!S-informational?style=flat&logo=ionic&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Quasar_!S-informational?style=flat&logo=quasar&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Framework-Native_Script_!B-informational?style=flat&logo=nativescript&logoColor=white&color=3bac3a)
+
+### DevOps
+![](https://img.shields.io/badge/CI/CD-Github_Action_!A-informational?style=flat&logo=github&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/CI/CD-Jenkins_!A-informational?style=flat&logo=jenkins&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/CI/CD-Circle_CI_!A-informational?style=flat&logo=circleci&logoColor=white&color=3bac3a)
+
+
+### Database
+
+![](https://img.shields.io/badge/Database-PostgreSQL_!S-informational?style=flat&logo=postgresql&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Database-MySQL_!S-informational?style=flat&logo=mysql&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Database-MongoDB_!S-informational?style=flat&logo=mongodb&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Database-Sqlite_!S-informational?style=flat&logo=sqlite&logoColor=white&color=3bac3a)
+
+### Tools
+![](https://img.shields.io/badge/OS-MacOS-informational?style=flat&logo=apple&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=Amazon&logoColor=white&color=3bac3a)
 
 
 

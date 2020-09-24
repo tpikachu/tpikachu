@@ -1,10 +1,7 @@
 # Hey, there~ <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> ![Visitor Count](https://profile-counter.glitch.me/tpikachu/count.svg) √î$î†ø®$
 ## &#x1f4c8; GitHub Stats
 
-<div style="
-    display: flex;
-    justify-content: center;
-    align-items: center;">
+<div style="display: flex;justify-content:center;align-items:center;">
 <a href="https://github.com/tpikachu/tpikachu" >
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?layout=compact&username=tpikachu&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="208px"/>
 </a>

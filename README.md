@@ -60,7 +60,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thenewboston-developers&repo=Account-Manager&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="120px"/>
 </a>    
 
-<a href="https://https://github.com/ACE-Group/Typescript-Electron-React-Template">
+<a href="https://github.com/ACE-Group/Typescript-Electron-React-Template">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ACE-Group&repo=Typescript-Electron-React-Template&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21"  height="120px"/>
 </a>
 <!-- Resources -->

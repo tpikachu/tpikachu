@@ -12,9 +12,16 @@
 
 ## 🔧 Skills and Tools
 
+### Blockchain & Libs
+![](https://img.shields.io/badge/Network-BitCoin_!S-informational?style=flat&logo=bitcoin&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Network-Ethereum_!S-informational?style=flat&logo=ethereum&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-Solidity_!S-informational?style=flat&logo=solidity&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Token-ERC721_!S-informational?style=flat&logo=erc721&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Token-ERC1155_!S-informational?style=flat&logo=erc1155&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Token-ERC20_!S-informational?style=flat&logo=erc20&logoColor=white&color=3bac3a)
 
 ### Web
-![](https://img.shields.io/badge/Language-Solidity_!S-informational?style=flat&logo=solidity&logoColor=white&color=3bac3a)
+
 ![](https://img.shields.io/badge/Language-JavaScript_!S-informational?style=flat&logo=javascript&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-TypeScript_!S-informational?style=flat&logo=typescript&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-PHP_!S-informational?style=flat&logo=php&logoColor=white&color=3bac3a)

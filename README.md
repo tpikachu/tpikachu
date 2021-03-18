@@ -13,7 +13,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=tpikachu&theme=nord)](https://github.com/ryo-ma/github-profile-trophy)
 
 
-## 🔧 Skills and Tools
+## 🔧🔧🔧🔧🔧
 
 ### Blockchain & Libs
 ![](https://img.shields.io/badge/Network-BitCoin_!S-informational?style=flat&logo=bitcoin&logoColor=white&color=3bac3a)

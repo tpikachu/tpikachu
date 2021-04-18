@@ -23,27 +23,16 @@
 ![](https://img.shields.io/badge/Token-ERC1155_!S-informational?style=flat&logo=erc1155&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Token-ERC20_!S-informational?style=flat&logo=erc20&logoColor=white&color=3bac3a)
 
-### Web
+### Languages & Frameworks
 
 ![](https://img.shields.io/badge/Language-JavaScript_!S-informational?style=flat&logo=javascript&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-TypeScript_!S-informational?style=flat&logo=typescript&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Language-PHP_!S-informational?style=flat&logo=php&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Language-Python_!A-informational?style=flat&logo=python&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-Go_!A-informational?style=flat&logo=go&logoColor=white&color=3bac3a)
 
 ![](https://img.shields.io/badge/Framework-React_!S-informational?style=flat&logo=react&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Framework-Vue_!S-informational?style=flat&logo=vue.js&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Angular_!S-informational?style=flat&logo=angular&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Ruby_On_Rails_!S-informational?style=flat&logo=ruby&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Laravel_!S-informational?style=flat&logo=laravel&logoColor=white&color=3bac3a)
-
-### Cross-platform & Hybrid
-
 ![](https://img.shields.io/badge/Framework-Electron_!SS-informational?style=flat&logo=electron&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-React_Native_!S-informational?style=flat&logo=react&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Ionic_!S-informational?style=flat&logo=ionic&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Quasar_!S-informational?style=flat&logo=quasar&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Framework-Native_Script_!B-informational?style=flat&logo=nativescript&logoColor=white&color=3bac3a)
+
 
 ### DevOps
 ![](https://img.shields.io/badge/CI/CD-Github_Action_!A-informational?style=flat&logo=github&logoColor=white&color=3bac3a)
@@ -57,26 +46,6 @@
 ![](https://img.shields.io/badge/Database-MySQL_!S-informational?style=flat&logo=mysql&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Database-MongoDB_!S-informational?style=flat&logo=mongodb&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Database-Sqlite_!S-informational?style=flat&logo=sqlite&logoColor=white&color=3bac3a)
-
-### Tools
-![](https://img.shields.io/badge/OS-MacOS-informational?style=flat&logo=apple&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Cloud-Digital_Ocean-informational?style=flat&logo=digitalocean&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=Amazon&logoColor=white&color=3bac3a)
-
-## Repo
-<a href="https://github.com/thenewboston-developers/Account-Manager">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=thenewboston-developers&repo=Account-Manager&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="120px"/>
-</a>    
-
-<a href="https://github.com/ACE-Group/Typescript-Electron-React-Template">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ACE-Group&repo=Typescript-Electron-React-Template&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="120px"/>
-</a>
-
-<a href="https://github.com/Swan-Finance-Inc/SwanFinance">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Swan-Finance-Inc&repo=SwanFinance&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" height="120px"/>
-</a>
 
 <!-- Resources -->
 <!-- Icons: https://simpleicons.org/ -->

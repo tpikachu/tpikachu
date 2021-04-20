@@ -20,18 +20,20 @@
 ![](https://img.shields.io/badge/Network-Ethereum_!S-informational?style=flat&logo=ethereum&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Network-Cardano!S-informational?style=flat&logo=cardano&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Network-Substrate!S-informational?style=flat&logo=substrate&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Token-NFT!S-informational?style=flat&logo=NFT&logoColor=white&color=3bac3a)
-
+![](https://img.shields.io/badge/Protocol-TheGraph!S-informational?style=flat&logo=thegraph&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/NFT!S-informational?style=flat&logo=NFT&logoColor=white&color=3bac3a)
 
 ### Languages & Frameworks
 
 ![](https://img.shields.io/badge/Language-Solidity_!S-informational?style=flat&logo=solidity&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Framework-Ink_!S-informational?style=flat&logo=ink&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Language-Vyper!S-informational?style=flat&logo=vyper&logoColor=white&color=3bac3a)
+
 ![](https://img.shields.io/badge/Language-JavaScript_!S-informational?style=flat&logo=javascript&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-TypeScript_!S-informational?style=flat&logo=typescript&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-Rust_!A-informational?style=flat&logo=go&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Language-Go_!A-informational?style=flat&logo=go&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/Language-Solidity_!S-informational?style=flat&logo=solidity&logoColor=white&color=3bac3a)
+
 ![](https://img.shields.io/badge/Framework-React_!S-informational?style=flat&logo=react&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Framework-Vue_!S-informational?style=flat&logo=vue.js&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Framework-Electron_!SS-informational?style=flat&logo=electron&logoColor=white&color=3bac3a)

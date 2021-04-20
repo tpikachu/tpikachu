@@ -21,7 +21,7 @@
 ![](https://img.shields.io/badge/Network-Cardano!S-informational?style=flat&logo=cardano&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Network-Substrate!S-informational?style=flat&logo=substrate&logoColor=white&color=3bac3a)
 ![](https://img.shields.io/badge/Protocol-TheGraph!S-informational?style=flat&logo=thegraph&logoColor=white&color=3bac3a)
-![](https://img.shields.io/badge/NFT!S-informational?style=flat&logo=NFT&logoColor=white&color=3bac3a)
+![](https://img.shields.io/badge/Token-NFT!S-informational?style=flat&logo=NFT&logoColor=white&color=3bac3a)
 
 ### Languages & Frameworks
 

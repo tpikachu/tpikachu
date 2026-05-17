@@ -1,4 +1,4 @@
-# Hey, there~ <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> ![Visit counter](https://count.getloli.com/get/@:tpikachu?theme=rule34)
+# Hey, there~ <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ## &#x1f4c8; GitHub Stats
 
   <a href="https://github.com/tpikachu/tpikachu" >

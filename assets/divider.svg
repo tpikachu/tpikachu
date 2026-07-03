@@ -1,0 +1,25 @@
+<svg width="1200" height="24" viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70a5fd" stop-opacity="0"/>
+      <stop offset="0.15" stop-color="#70a5fd" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#bf91f3" stop-opacity="0.55"/>
+      <stop offset="0.85" stop-color="#38bdae" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38bdae" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes sweep { from { transform: translateX(-160px); } to { transform: translateX(1200px); } }
+    .sweep { animation: sweep 4.5s ease-in-out infinite; }
+  </style>
+  <rect y="11" width="1200" height="2" rx="1" fill="url(#line)"/>
+  <rect class="sweep" y="11" width="160" height="2" rx="1" fill="url(#glow)"/>
+  <circle cx="600" cy="12" r="3.5" fill="#bf91f3" opacity="0.9"/>
+  <circle cx="586" cy="12" r="2" fill="#70a5fd" opacity="0.7"/>
+  <circle cx="614" cy="12" r="2" fill="#38bdae" opacity="0.7"/>
+</svg>

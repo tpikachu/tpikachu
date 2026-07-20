@@ -1,110 +1,213 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <title>tpikachu — A WILD DEVELOPER APPEARED!</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0a0e17"/>
-      <stop offset="1" stop-color="#0e1526"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#151b3d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="titleGrad" x1="384" y1="0" x2="816" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#70a5fd"/>
       <stop offset="0.5" stop-color="#bf91f3"/>
       <stop offset="1" stop-color="#38bdae"/>
+      <animate attributeName="x1" values="384;200;384" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="816;1000;816" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="title" x1="380" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#70a5fd"/>
-      <stop offset="0.5" stop-color="#bf91f3"/>
-      <stop offset="1" stop-color="#38bdae"/>
-      <animate attributeName="x1" values="380;150;380" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="820;1050;820" dur="6s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="comet" x1="0" y1="0" x2="220" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#70a5fd" stroke-opacity="0.06" fill="none"/>
+    <pattern id="bricks" width="48" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0,292)">
+      <rect width="48" height="24" fill="#513217"/>
+      <rect y="10" width="48" height="2" fill="#241203"/>
+      <rect y="22" width="48" height="2" fill="#241203"/>
+      <rect x="22" width="2" height="10" fill="#241203"/>
+      <rect x="0" y="12" width="2" height="10" fill="#241203"/>
+      <rect x="46" y="12" width="2" height="10" fill="#241203"/>
     </pattern>
-    <filter id="soften" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="55"/>
-    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000"/>
+    </pattern>
+    <!-- "TPIKACHU" in a hand-drawn 5x7 pixel font, cell = 8px -->
+    <g id="titleTxt">
+      <!-- T -->
+      <rect x="384" y="84" width="40" height="8"/><rect x="400" y="92" width="8" height="48"/>
+      <!-- P -->
+      <rect x="440" y="84" width="8" height="56"/><rect x="448" y="84" width="24" height="8"/><rect x="448" y="108" width="24" height="8"/><rect x="472" y="92" width="8" height="16"/>
+      <!-- I -->
+      <rect x="504" y="84" width="24" height="8"/><rect x="512" y="92" width="8" height="40"/><rect x="504" y="132" width="24" height="8"/>
+      <!-- K -->
+      <rect x="552" y="84" width="8" height="56"/><rect x="584" y="84" width="8" height="8"/><rect x="576" y="92" width="8" height="8"/><rect x="568" y="100" width="8" height="8"/><rect x="560" y="108" width="8" height="8"/><rect x="568" y="116" width="8" height="8"/><rect x="576" y="124" width="8" height="8"/><rect x="584" y="132" width="8" height="8"/>
+      <!-- A -->
+      <rect x="616" y="84" width="24" height="8"/><rect x="608" y="92" width="8" height="48"/><rect x="640" y="92" width="8" height="48"/><rect x="616" y="108" width="24" height="8"/>
+      <!-- C -->
+      <rect x="672" y="84" width="32" height="8"/><rect x="664" y="92" width="8" height="40"/><rect x="672" y="132" width="32" height="8"/>
+      <!-- H -->
+      <rect x="720" y="84" width="8" height="56"/><rect x="752" y="84" width="8" height="56"/><rect x="728" y="108" width="24" height="8"/>
+      <!-- U -->
+      <rect x="776" y="84" width="8" height="48"/><rect x="808" y="84" width="8" height="48"/><rect x="784" y="132" width="24" height="8"/>
+    </g>
   </defs>
 
-  <style>
-    @keyframes drift1 { from { transform: translate(0,0); }   to { transform: translate(60px,-35px); } }
-    @keyframes drift2 { from { transform: translate(0,0); }   to { transform: translate(-70px,28px); } }
-    @keyframes drift3 { from { transform: translate(0,0); }   to { transform: translate(45px,45px); } }
-    .b1 { animation: drift1 12s ease-in-out infinite alternate; }
-    .b2 { animation: drift2 16s ease-in-out infinite alternate; }
-    .b3 { animation: drift3 14s ease-in-out infinite alternate; }
-
-    @keyframes rise {
-      0%   { transform: translateY(0);      opacity: 0; }
-      12%  { opacity: 0.75; }
-      85%  { opacity: 0.35; }
-      100% { transform: translateY(-330px); opacity: 0; }
-    }
-    .p { animation: rise linear infinite; }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .t1 { animation: fadeUp 0.9s 0.10s ease-out both; }
-    .t2 { animation: fadeUp 0.9s 0.45s ease-out both; }
-    .t3 { animation: fadeUp 0.9s 0.75s ease-out both; }
-
-    @keyframes scan { from { transform: translateX(-220px); } to { transform: translateX(1200px); } }
-    .scan { animation: scan 3.6s linear infinite; }
-
-    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
-    .cursor { animation: blink 1.1s step-end infinite; }
-  </style>
-
-  <!-- background -->
   <rect width="1200" height="340" fill="url(#bg)"/>
-  <rect width="1200" height="340" fill="url(#grid)"/>
 
-  <!-- drifting aurora blobs -->
-  <circle class="b1" cx="160" cy="315" r="170" fill="#70a5fd" opacity="0.20" filter="url(#soften)"/>
-  <circle class="b2" cx="610" cy="30"  r="190" fill="#bf91f3" opacity="0.18" filter="url(#soften)"/>
-  <circle class="b3" cx="1050" cy="310" r="170" fill="#38bdae" opacity="0.16" filter="url(#soften)"/>
-
-  <!-- rising particles -->
-  <g>
-    <circle class="p" cx="70"   cy="345" r="2"   fill="#70a5fd" style="animation-duration:9s;  animation-delay:-2s;"/>
-    <circle class="p" cx="165"  cy="345" r="1.5" fill="#38bdae" style="animation-duration:12s; animation-delay:-7s;"/>
-    <circle class="p" cx="255"  cy="345" r="2.5" fill="#bf91f3" style="animation-duration:10s; animation-delay:-4s;"/>
-    <circle class="p" cx="350"  cy="345" r="1.5" fill="#70a5fd" style="animation-duration:13s; animation-delay:-9s;"/>
-    <circle class="p" cx="455"  cy="345" r="2"   fill="#38bdae" style="animation-duration:8s;  animation-delay:-1s;"/>
-    <circle class="p" cx="560"  cy="345" r="1.5" fill="#bf91f3" style="animation-duration:11s; animation-delay:-6s;"/>
-    <circle class="p" cx="665"  cy="345" r="2.5" fill="#70a5fd" style="animation-duration:9.5s;animation-delay:-3s;"/>
-    <circle class="p" cx="770"  cy="345" r="1.5" fill="#38bdae" style="animation-duration:12.5s;animation-delay:-8s;"/>
-    <circle class="p" cx="880"  cy="345" r="2"   fill="#bf91f3" style="animation-duration:10.5s;animation-delay:-5s;"/>
-    <circle class="p" cx="985"  cy="345" r="1.5" fill="#70a5fd" style="animation-duration:13.5s;animation-delay:-10s;"/>
-    <circle class="p" cx="1085" cy="345" r="2.5" fill="#38bdae" style="animation-duration:9s;  animation-delay:-2.5s;"/>
-    <circle class="p" cx="1160" cy="345" r="1.5" fill="#bf91f3" style="animation-duration:11.5s;animation-delay:-6.5s;"/>
+  <!-- stars -->
+  <g fill="#cdd6f4">
+    <rect x="80" y="52" width="3" height="3"/>
+    <rect x="250" y="78" width="2" height="2"/>
+    <rect x="470" y="56" width="3" height="3"/>
+    <rect x="760" y="60" width="2" height="2"/>
+    <rect x="880" y="84" width="3" height="3"/>
+    <rect x="960" y="48" width="2" height="2"/>
+    <rect x="1120" y="64" width="3" height="3"/>
+    <rect x="60" y="190" width="2" height="2"/>
+    <rect x="300" y="170" width="3" height="3"/>
+    <rect x="1150" y="200" width="3" height="3"/>
+    <rect x="160" y="120" width="3" height="3">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="340" y="44" width="3" height="3">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g fill="#70a5fd">
+    <rect x="640" y="48" width="3" height="3">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" begin="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="200" y="210" width="2" height="2"/>
+  </g>
+  <g fill="#38bdae">
+    <rect x="1040" y="128" width="3" height="3">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.8s" begin="2s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- corner accents -->
-  <text class="t3" x="36" y="46" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#55627a">~/tpikachu <tspan class="cursor" fill="#70a5fd">▊</tspan></text>
-  <text class="t3" x="1164" y="46" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#55627a">est. 2018</text>
+  <!-- clouds -->
+  <g transform="translate(120,64)" fill="#26315e">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;30 0;0 0" dur="26s" repeatCount="indefinite"/>
+    <rect x="0" y="6" width="64" height="12"/><rect x="10" y="0" width="30" height="8"/><rect x="46" y="2" width="14" height="6"/>
+  </g>
+  <g transform="translate(790,50)" fill="#26315e">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;-40 0;0 0" dur="34s" repeatCount="indefinite"/>
+    <rect x="0" y="5" width="50" height="10"/><rect x="8" y="0" width="26" height="7"/>
+  </g>
+
+  <!-- ground: teal grass over bricks -->
+  <rect x="0" y="280" width="1200" height="3" fill="#7fe3d2"/>
+  <rect x="0" y="283" width="1200" height="5" fill="#38bdae"/>
+  <rect x="0" y="288" width="1200" height="4" fill="#1c6e5f"/>
+  <rect x="0" y="292" width="1200" height="48" fill="url(#bricks)"/>
+
+  <!-- pipe -->
+  <rect x="1085" y="240" width="72" height="40" fill="#2ea84f"/>
+  <rect x="1091" y="240" width="10" height="40" fill="#74e393"/>
+  <rect x="1147" y="240" width="10" height="40" fill="#17693a"/>
+  <rect x="1077" y="222" width="88" height="20" fill="#2ea84f"/>
+  <rect x="1083" y="222" width="10" height="20" fill="#74e393"/>
+  <rect x="1153" y="222" width="12" height="20" fill="#17693a"/>
+
+  <!-- ? block above player -->
+  <g transform="translate(204,104)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -8;0 0;0 0" keyTimes="0;0.05;0.1;1" dur="3.4s" repeatCount="indefinite"/>
+    <rect width="44" height="44" fill="#b57e0a"/>
+    <rect x="4" y="4" width="36" height="36" fill="#f5b915"/>
+    <rect x="8" y="8" width="4" height="4" fill="#7a5205"/>
+    <rect x="32" y="8" width="4" height="4" fill="#7a5205"/>
+    <rect x="8" y="32" width="4" height="4" fill="#7a5205"/>
+    <rect x="32" y="32" width="4" height="4" fill="#7a5205"/>
+    <text x="22" y="32" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#fff8e1">?</text>
+  </g>
+
+  <!-- coins -->
+  <g transform="translate(940,138) scale(4)" fill="#f5b915">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.5;0 0" dur="1.8s" repeatCount="indefinite"/>
+    <rect x="1" width="4" height="6"/><rect y="1" width="6" height="4"/>
+    <rect x="2" y="2" width="2" height="2" fill="#b57e0a"/><rect x="1" y="1" width="1" height="1" fill="#fff3c4"/>
+  </g>
+  <g transform="translate(985,118) scale(4)" fill="#f5b915">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.5;0 0" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+    <rect x="1" width="4" height="6"/><rect y="1" width="6" height="4"/>
+    <rect x="2" y="2" width="2" height="2" fill="#b57e0a"/><rect x="1" y="1" width="1" height="1" fill="#fff3c4"/>
+  </g>
+  <g transform="translate(1030,138) scale(4)" fill="#f5b915">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.5;0 0" dur="1.8s" begin="1s" repeatCount="indefinite"/>
+    <rect x="1" width="4" height="6"/><rect y="1" width="6" height="4"/>
+    <rect x="2" y="2" width="2" height="2" fill="#b57e0a"/><rect x="1" y="1" width="1" height="1" fill="#fff3c4"/>
+  </g>
+
+  <!-- pixel pikachu, cell = 7px -->
+  <g transform="translate(170,175) scale(7)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.85" keyTimes="0;0.5" dur="0.85s" repeatCount="indefinite"/>
+    <g fill="#141414">
+      <rect x="3" y="0" width="1" height="1"/><rect x="12" y="0" width="1" height="1"/>
+      <rect x="2" y="1" width="2" height="1"/><rect x="12" y="1" width="2" height="1"/>
+      <rect x="4" y="6" width="1" height="2"/><rect x="11" y="6" width="1" height="2"/>
+      <rect x="7" y="8" width="2" height="1"/>
+    </g>
+    <g fill="#ffd932">
+      <rect x="2" y="2" width="2" height="1"/><rect x="12" y="2" width="2" height="1"/>
+      <rect x="2" y="3" width="3" height="1"/><rect x="11" y="3" width="3" height="1"/>
+      <rect x="3" y="4" width="10" height="1"/>
+      <rect x="2" y="5" width="12" height="1"/>
+      <rect x="2" y="6" width="2" height="2"/><rect x="5" y="6" width="6" height="2"/><rect x="12" y="6" width="2" height="2"/>
+      <rect x="4" y="8" width="3" height="1"/><rect x="9" y="8" width="3" height="1"/>
+      <rect x="4" y="9" width="8" height="1"/>
+      <rect x="3" y="10" width="10" height="1"/>
+      <rect x="2" y="11" width="12" height="2"/>
+      <rect x="3" y="13" width="3" height="1"/><rect x="10" y="13" width="3" height="1"/>
+      <rect x="14" y="8" width="2" height="2"/><rect x="15" y="6" width="2" height="2"/><rect x="14" y="4" width="3" height="2"/>
+    </g>
+    <g fill="#ff5a5a">
+      <rect x="2" y="8" width="2" height="2"/><rect x="12" y="8" width="2" height="2"/>
+    </g>
+    <g fill="#d9a400">
+      <rect x="3" y="14" width="3" height="1"/><rect x="10" y="14" width="3" height="1"/>
+    </g>
+  </g>
+
+  <!-- bug enemy -->
+  <g transform="translate(860,250)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;-8 0;-16 0;-24 0;-16 0;-8 0;0 0;8 0;16 0;24 0;16 0;8 0" dur="6s" repeatCount="indefinite"/>
+    <g transform="scale(6)">
+      <rect x="0" y="0" width="1" height="1" fill="#141414"/>
+      <rect x="0" y="1" width="1" height="2" fill="#141414"/>
+      <rect x="2" y="0" width="4" height="1" fill="#e05252"/>
+      <rect x="1" y="1" width="6" height="1" fill="#e05252"/>
+      <rect x="1" y="2" width="6" height="1" fill="#e05252"/>
+      <rect x="1" y="3" width="6" height="1" fill="#e05252"/>
+      <rect x="4" y="1" width="1" height="1" fill="#141414"/>
+      <rect x="2" y="2" width="1" height="1" fill="#141414"/>
+      <rect x="5" y="3" width="1" height="1" fill="#141414"/>
+      <rect x="1" y="4" width="1" height="1" fill="#141414"/><rect x="3" y="4" width="1" height="1" fill="#141414"/><rect x="5" y="4" width="1" height="1" fill="#141414"/>
+    </g>
+  </g>
+
+  <!-- thunderbolt: debugging in progress -->
+  <g opacity="0">
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0" keyTimes="0;0.66;0.74;0.8;0.88" dur="3.6s" repeatCount="indefinite"/>
+    <polyline points="278,246 348,246 336,260 420,260 408,246 494,246 482,260 566,260 554,246 640,246 628,260 712,260 700,248 788,254 856,254" fill="none" stroke="#ffe95c" stroke-width="5"/>
+    <polyline points="278,246 348,246 336,260 420,260 408,246 494,246 482,260 566,260 554,246 640,246 628,260 712,260 700,248 788,254 856,254" fill="none" stroke="#fffbe0" stroke-width="2"/>
+  </g>
+  <text x="884" y="234" font-family="'Courier New', monospace" font-size="20" font-weight="bold" fill="#ffe95c" opacity="0">!
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0" keyTimes="0;0.66;0.74;0.8;0.88" dur="3.6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- HUD -->
+  <g font-family="'Courier New', monospace" font-size="16" font-weight="bold" letter-spacing="3">
+    <text x="48" y="34" fill="#cdd6f4">1UP x 99</text>
+    <text x="600" y="34" text-anchor="middle" fill="#ffd932">BUGS FIXED 999999</text>
+    <text x="1152" y="34" text-anchor="end" fill="#cdd6f4">WORLD GH-1</text>
+  </g>
 
   <!-- title -->
-  <text class="t1" x="600" y="172" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="78" font-weight="800"
-        letter-spacing="2" fill="url(#title)">tpikachu ⚡</text>
+  <use href="#titleTxt" x="5" y="5" fill="#060913"/>
+  <use href="#titleTxt" fill="url(#titleGrad)"/>
 
-  <!-- tagline -->
-  <text class="t2" x="600" y="232" text-anchor="middle"
-        font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600"
-        letter-spacing="8" fill="#9aa7bd">AI &#215; BLOCKCHAIN &#215; FULL-STACK</text>
+  <text x="600" y="176" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="bold" letter-spacing="4" fill="#cdd6f4">A WILD DEVELOPER APPEARED!</text>
 
-  <!-- sub note -->
-  <text class="t3" x="600" y="272" text-anchor="middle"
-        font-family="Consolas, 'Courier New', monospace" font-size="14"
-        letter-spacing="2" fill="#55627a">TypeScript &#183; Python &#183; Rust &#183; Go &#183; Solidity</text>
+  <text x="600" y="210" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" font-weight="bold" letter-spacing="3" fill="#ffd932">&gt; PRESS START TO COLLABORATE &lt;
+    <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </text>
 
-  <!-- animated bottom bar -->
-  <rect y="334" width="1200" height="6" fill="url(#accent)" opacity="0.9"/>
-  <rect class="scan" y="334" width="220" height="6" fill="url(#comet)"/>
+  <text x="600" y="322" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="bold" letter-spacing="3" fill="#d8b06a">INSERT COFFEE TO CONTINUE
+    <animate attributeName="opacity" values="0.9;0.35;0.9" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- CRT scanlines -->
+  <rect width="1200" height="340" fill="url(#scan)" opacity="0.1"/>
 </svg>

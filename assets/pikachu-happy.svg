@@ -1,0 +1,65 @@
+<svg width="200" height="168" viewBox="0 0 200 168" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <title>Happy pixel pikachu cheering — thanks for visiting!</title>
+
+  <!-- floating hearts -->
+  <g transform="translate(38,16) scale(4)" fill="#ff6fa5" opacity="0">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 2.5;0 -3" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.6s" repeatCount="indefinite"/>
+    <rect x="1" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/>
+    <rect x="0" y="1" width="5" height="1"/>
+    <rect x="1" y="2" width="3" height="1"/>
+    <rect x="2" y="3" width="1" height="1"/>
+  </g>
+  <g transform="translate(142,8) scale(4)" fill="#ff6fa5" opacity="0">
+    <animateTransform attributeName="transform" type="translate" additive="sum" values="0 2.5;0 -3" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.6s" begin="1.3s" repeatCount="indefinite"/>
+    <rect x="1" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/>
+    <rect x="0" y="1" width="5" height="1"/>
+    <rect x="1" y="2" width="3" height="1"/>
+    <rect x="2" y="3" width="1" height="1"/>
+  </g>
+
+  <!-- sparkles -->
+  <g transform="translate(8,84) scale(3)" fill="#fff6c9">
+    <animate attributeName="opacity" values="1;0;1" dur="1.4s" repeatCount="indefinite"/>
+    <rect x="1" y="0" width="1" height="1"/><rect x="0" y="1" width="3" height="1"/><rect x="1" y="2" width="1" height="1"/>
+  </g>
+  <g transform="translate(178,78) scale(3)" fill="#fff6c9">
+    <animate attributeName="opacity" values="1;0;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+    <rect x="1" y="0" width="1" height="1"/><rect x="0" y="1" width="3" height="1"/><rect x="1" y="2" width="1" height="1"/>
+  </g>
+
+  <!-- cheering pikachu, cell = 8px -->
+  <g transform="translate(28,40) scale(8)">
+    <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.5" keyTimes="0;0.5" dur="0.7s" repeatCount="indefinite"/>
+    <g fill="#ffd932">
+      <rect x="3" y="2" width="2" height="1"/><rect x="13" y="2" width="2" height="1"/>
+      <rect x="3" y="3" width="3" height="1"/><rect x="12" y="3" width="3" height="1"/>
+      <rect x="4" y="4" width="10" height="1"/>
+      <rect x="3" y="5" width="12" height="1"/>
+      <rect x="3" y="6" width="12" height="1"/>
+      <rect x="3" y="7" width="12" height="1"/>
+      <rect x="5" y="8" width="2" height="1"/><rect x="11" y="8" width="2" height="1"/>
+      <rect x="5" y="9" width="3" height="1"/><rect x="10" y="9" width="3" height="1"/>
+      <rect x="4" y="10" width="10" height="1"/>
+      <rect x="2" y="9" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="0" y="6" width="2" height="2"/>
+      <rect x="15" y="9" width="1" height="1"/><rect x="16" y="8" width="1" height="1"/><rect x="16" y="6" width="2" height="2"/>
+      <rect x="3" y="11" width="12" height="2"/>
+      <rect x="4" y="13" width="3" height="1"/><rect x="11" y="13" width="3" height="1"/>
+    </g>
+    <g fill="#141414">
+      <rect x="4" y="0" width="1" height="1"/><rect x="13" y="0" width="1" height="1"/>
+      <rect x="3" y="1" width="2" height="1"/><rect x="13" y="1" width="2" height="1"/>
+      <rect x="5" y="6" width="1" height="1"/><rect x="4" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/>
+      <rect x="12" y="6" width="1" height="1"/><rect x="11" y="7" width="1" height="1"/><rect x="13" y="7" width="1" height="1"/>
+      <rect x="7" y="8" width="4" height="1"/>
+    </g>
+    <g fill="#ff5a5a">
+      <rect x="3" y="8" width="2" height="2"/><rect x="13" y="8" width="2" height="2"/>
+      <rect x="8" y="9" width="2" height="1" fill="#e2555a"/>
+    </g>
+    <g fill="#d9a400">
+      <rect x="4" y="14" width="3" height="1"/><rect x="11" y="14" width="3" height="1"/>
+    </g>
+  </g>
+</svg>

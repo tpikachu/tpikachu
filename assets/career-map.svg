@@ -1,0 +1,666 @@
+<svg width="1200" height="1020" viewBox="0 0 1200 1020" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <title>tpikachu career map — story mode</title>
+  <defs>
+    <pattern id="bricks" width="48" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0,212)">
+      <rect width="48" height="24" fill="#513217"/>
+      <rect y="10" width="48" height="2" fill="#241203"/>
+      <rect y="22" width="48" height="2" fill="#241203"/>
+      <rect x="22" width="2" height="10" fill="#241203"/>
+      <rect x="0" y="12" width="2" height="10" fill="#241203"/>
+      <rect x="46" y="12" width="2" height="10" fill="#241203"/>
+    </pattern>
+    <pattern id="bricksP" width="48" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0,212)">
+      <rect width="48" height="24" fill="#3a2560"/>
+      <rect y="10" width="48" height="2" fill="#190e30"/>
+      <rect y="22" width="48" height="2" fill="#190e30"/>
+      <rect x="22" width="2" height="10" fill="#190e30"/>
+      <rect x="0" y="12" width="2" height="10" fill="#190e30"/>
+      <rect x="46" y="12" width="2" height="10" fill="#190e30"/>
+    </pattern>
+    <pattern id="bricksD" width="48" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0,252)">
+      <rect width="48" height="24" fill="#3a3f4d"/>
+      <rect y="10" width="48" height="2" fill="#14161d"/>
+      <rect y="22" width="48" height="2" fill="#14161d"/>
+      <rect x="22" width="2" height="10" fill="#14161d"/>
+      <rect x="0" y="12" width="2" height="10" fill="#14161d"/>
+      <rect x="46" y="12" width="2" height="10" fill="#14161d"/>
+    </pattern>
+
+    <!-- pikachu, 16x15 cells -->
+    <g id="pika">
+      <g fill="#ffd932">
+        <rect x="2" y="2" width="2" height="1"/><rect x="12" y="2" width="2" height="1"/>
+        <rect x="2" y="3" width="3" height="1"/><rect x="11" y="3" width="3" height="1"/>
+        <rect x="3" y="4" width="10" height="1"/>
+        <rect x="2" y="5" width="12" height="1"/>
+        <rect x="2" y="6" width="2" height="2"/><rect x="5" y="6" width="6" height="2"/><rect x="12" y="6" width="2" height="2"/>
+        <rect x="4" y="8" width="3" height="1"/><rect x="9" y="8" width="3" height="1"/>
+        <rect x="4" y="9" width="8" height="1"/>
+        <rect x="3" y="10" width="10" height="1"/>
+        <rect x="2" y="11" width="12" height="2"/>
+        <rect x="3" y="13" width="3" height="1"/><rect x="10" y="13" width="3" height="1"/>
+        <rect x="14" y="8" width="2" height="2"/><rect x="15" y="6" width="2" height="2"/><rect x="14" y="4" width="3" height="2"/>
+      </g>
+      <g fill="#141414">
+        <rect x="3" y="0" width="1" height="1"/><rect x="12" y="0" width="1" height="1"/>
+        <rect x="2" y="1" width="2" height="1"/><rect x="12" y="1" width="2" height="1"/>
+        <rect x="4" y="6" width="1" height="2"/><rect x="11" y="6" width="1" height="2"/>
+        <rect x="7" y="8" width="2" height="1"/>
+      </g>
+      <rect x="2" y="8" width="2" height="2" fill="#ff5a5a"/><rect x="12" y="8" width="2" height="2" fill="#ff5a5a"/>
+      <rect x="3" y="14" width="3" height="1" fill="#d9a400"/><rect x="10" y="14" width="3" height="1" fill="#d9a400"/>
+    </g>
+
+    <!-- cheering pikachu, 18x15 cells -->
+    <g id="pikaCheer">
+      <g fill="#ffd932">
+        <rect x="3" y="2" width="2" height="1"/><rect x="13" y="2" width="2" height="1"/>
+        <rect x="3" y="3" width="3" height="1"/><rect x="12" y="3" width="3" height="1"/>
+        <rect x="4" y="4" width="10" height="1"/>
+        <rect x="3" y="5" width="12" height="1"/>
+        <rect x="3" y="6" width="12" height="1"/>
+        <rect x="3" y="7" width="12" height="1"/>
+        <rect x="5" y="8" width="2" height="1"/><rect x="11" y="8" width="2" height="1"/>
+        <rect x="5" y="9" width="3" height="1"/><rect x="10" y="9" width="3" height="1"/>
+        <rect x="4" y="10" width="10" height="1"/>
+        <rect x="2" y="9" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="0" y="6" width="2" height="2"/>
+        <rect x="15" y="9" width="1" height="1"/><rect x="16" y="8" width="1" height="1"/><rect x="16" y="6" width="2" height="2"/>
+        <rect x="3" y="11" width="12" height="2"/>
+        <rect x="4" y="13" width="3" height="1"/><rect x="11" y="13" width="3" height="1"/>
+      </g>
+      <g fill="#141414">
+        <rect x="4" y="0" width="1" height="1"/><rect x="13" y="0" width="1" height="1"/>
+        <rect x="3" y="1" width="2" height="1"/><rect x="13" y="1" width="2" height="1"/>
+        <rect x="5" y="6" width="1" height="1"/><rect x="4" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/>
+        <rect x="12" y="6" width="1" height="1"/><rect x="11" y="7" width="1" height="1"/><rect x="13" y="7" width="1" height="1"/>
+        <rect x="7" y="8" width="4" height="1"/>
+      </g>
+      <rect x="3" y="8" width="2" height="2" fill="#ff5a5a"/><rect x="13" y="8" width="2" height="2" fill="#ff5a5a"/>
+      <rect x="8" y="9" width="2" height="1" fill="#e2555a"/>
+      <rect x="4" y="14" width="3" height="1" fill="#d9a400"/><rect x="11" y="14" width="3" height="1" fill="#d9a400"/>
+    </g>
+
+    <!-- angry browser-window enemy, 10x8 cells -->
+    <g id="ebrow">
+      <rect x="0" y="0" width="10" height="1" fill="#3d4663"/>
+      <rect x="1" y="0" width="1" height="1" fill="#ff5f56"/><rect x="2" y="0" width="1" height="1" fill="#ffbd2e"/><rect x="3" y="0" width="1" height="1" fill="#27c93f"/>
+      <rect x="0" y="1" width="10" height="7" fill="#cdd6f4"/>
+      <g fill="#141414">
+        <rect x="3" y="2" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/>
+        <rect x="2" y="3" width="2" height="1"/><rect x="6" y="3" width="2" height="1"/>
+        <rect x="4" y="5" width="2" height="1"/><rect x="3" y="6" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/>
+      </g>
+    </g>
+    <!-- squashed browser enemy, 10x3 -->
+    <g id="ebrowFlat">
+      <rect x="0" y="0" width="10" height="1" fill="#3d4663"/>
+      <rect x="0" y="1" width="10" height="2" fill="#cdd6f4"/>
+      <rect x="2" y="1" width="1" height="1" fill="#141414"/><rect x="7" y="1" width="1" height="1" fill="#141414"/>
+    </g>
+
+    <!-- gas-fee imp (flame), 7x8 -->
+    <g id="imp">
+      <g fill="#ff9838">
+        <rect x="3" y="0" width="1" height="1"/><rect x="2" y="1" width="3" height="1"/>
+        <rect x="1" y="2" width="4" height="1"/><rect x="1" y="3" width="5" height="1"/>
+        <rect x="0" y="4" width="7" height="2"/><rect x="1" y="6" width="5" height="1"/><rect x="2" y="7" width="3" height="1"/>
+      </g>
+      <rect x="2" y="4" width="3" height="2" fill="#ffd932"/>
+      <rect x="2" y="4" width="1" height="1" fill="#141414"/><rect x="4" y="4" width="1" height="1" fill="#141414"/>
+      <rect x="3" y="6" width="1" height="1" fill="#141414"/>
+      <animate attributeName="opacity" values="1;0.8;1" dur="0.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- bear market bear, 11x9 -->
+    <g id="bear">
+      <g fill="#c0455e">
+        <rect x="1" y="0" width="2" height="1"/><rect x="8" y="0" width="2" height="1"/>
+        <rect x="1" y="1" width="9" height="1"/><rect x="0" y="2" width="11" height="5"/><rect x="1" y="7" width="9" height="1"/>
+        <rect x="1" y="8" width="2" height="1"/><rect x="8" y="8" width="2" height="1"/>
+      </g>
+      <rect x="4" y="4" width="3" height="2" fill="#e8b88a"/>
+      <rect x="5" y="4" width="1" height="1" fill="#141414"/>
+      <rect x="3" y="3" width="1" height="1" fill="#141414"/><rect x="7" y="3" width="1" height="1" fill="#141414"/>
+    </g>
+
+    <!-- super stack shroom (red), 12x8 -->
+    <g id="shroomR">
+      <g fill="#ff5a5a">
+        <rect x="4" y="0" width="4" height="1"/><rect x="2" y="1" width="8" height="1"/>
+        <rect x="1" y="2" width="10" height="1"/><rect x="0" y="3" width="12" height="2"/>
+      </g>
+      <g fill="#fff6e8">
+        <rect x="5" y="1" width="2" height="1"/><rect x="2" y="3" width="2" height="1"/><rect x="8" y="3" width="2" height="1"/>
+      </g>
+      <rect x="3" y="5" width="6" height="3" fill="#ffe8c9"/>
+      <rect x="4" y="6" width="1" height="1" fill="#141414"/><rect x="7" y="6" width="1" height="1" fill="#141414"/>
+    </g>
+    <!-- mage shroom (purple), 12x8 -->
+    <g id="shroomP">
+      <g fill="#bf91f3">
+        <rect x="4" y="0" width="4" height="1"/><rect x="2" y="1" width="8" height="1"/>
+        <rect x="1" y="2" width="10" height="1"/><rect x="0" y="3" width="12" height="2"/>
+      </g>
+      <g fill="#f5b915">
+        <rect x="5" y="1" width="2" height="1"/><rect x="4" y="2" width="4" height="1"/><rect x="5" y="3" width="2" height="1"/>
+      </g>
+      <rect x="3" y="5" width="6" height="3" fill="#ffe8c9"/>
+      <rect x="4" y="6" width="1" height="1" fill="#141414"/><rect x="7" y="6" width="1" height="1" fill="#141414"/>
+    </g>
+
+    <!-- wizard hat, 12x8 -->
+    <g id="wizhat">
+      <g fill="#8a63d2">
+        <rect x="2" y="6" width="8" height="1"/><rect x="3" y="5" width="6" height="1"/><rect x="3" y="4" width="5" height="1"/>
+        <rect x="4" y="3" width="4" height="1"/><rect x="5" y="2" width="3" height="1"/><rect x="6" y="1" width="2" height="1"/><rect x="7" y="0" width="2" height="1"/>
+      </g>
+      <rect x="0" y="7" width="12" height="1" fill="#bf91f3"/>
+      <rect x="2" y="6" width="8" height="1" fill="#f5b915"/>
+      <rect x="9" y="0" width="1" height="1" fill="#f5b915"/>
+      <rect x="5" y="4" width="1" height="1" fill="#f5b915"/>
+    </g>
+
+    <!-- gem, 6x4 -->
+    <g id="gem">
+      <rect x="1" y="0" width="4" height="1" fill="#61dfff"/><rect x="0" y="1" width="6" height="1" fill="#61dfff"/>
+      <rect x="1" y="2" width="4" height="1" fill="#61dfff"/><rect x="2" y="3" width="2" height="1" fill="#61dfff"/>
+      <rect x="2" y="1" width="1" height="1" fill="#d6f6ff"/>
+    </g>
+
+    <!-- A.I. Overlord robot, 18x14 -->
+    <g id="robot">
+      <rect x="8" y="0" width="2" height="1" fill="#f5b915"/><rect x="8" y="1" width="2" height="1" fill="#6b7891"/>
+      <rect x="4" y="2" width="10" height="1" fill="#9aa7bd"/><rect x="3" y="3" width="12" height="5" fill="#9aa7bd"/>
+      <rect x="4" y="8" width="10" height="1" fill="#6b7891"/>
+      <rect x="6" y="4" width="6" height="3" fill="#141414"/>
+      <rect x="8" y="5" width="2" height="1" fill="#ff4f4f">
+        <animate attributeName="fill" values="#ff4f4f;#ff9838;#ff4f4f" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="5" y="9" width="8" height="4" fill="#6b7891"/>
+      <rect x="8" y="10" width="2" height="2" fill="#61dfff">
+        <animate attributeName="opacity" values="1;0.5;1" dur="1.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="2" y="9" width="2" height="3" fill="#9aa7bd"/><rect x="14" y="9" width="2" height="3" fill="#9aa7bd"/>
+      <rect x="1" y="12" width="2" height="2" fill="#6b7891"/><rect x="15" y="12" width="2" height="2" fill="#6b7891"/>
+    </g>
+
+    <!-- friendly robot buddy, 12x10 -->
+    <g id="buddy">
+      <rect x="5" y="0" width="2" height="1" fill="#ff6fa5"/><rect x="5" y="1" width="2" height="1" fill="#6b7891"/>
+      <rect x="2" y="2" width="8" height="4" fill="#9aa7bd"/>
+      <rect x="4" y="3" width="4" height="2" fill="#141414"/>
+      <rect x="5" y="4" width="2" height="1" fill="#38d970"/>
+      <rect x="5" y="5" width="2" height="1" fill="#141414"/>
+      <rect x="3" y="6" width="6" height="3" fill="#6b7891"/>
+      <rect x="5" y="7" width="2" height="1" fill="#ff6fa5"/>
+      <rect x="1" y="6" width="2" height="2" fill="#9aa7bd"/><rect x="9" y="5" width="2" height="2" fill="#9aa7bd"/>
+      <rect x="4" y="9" width="2" height="1" fill="#6b7891"/><rect x="6" y="9" width="2" height="1" fill="#6b7891"/>
+    </g>
+
+    <!-- heart, 5x4 -->
+    <g id="heart">
+      <rect x="1" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/>
+      <rect x="0" y="1" width="5" height="1"/><rect x="1" y="2" width="3" height="1"/><rect x="2" y="3" width="1" height="1"/>
+    </g>
+    <!-- sparkle, 3x3 -->
+    <g id="spark">
+      <rect x="1" y="0" width="1" height="1"/><rect x="0" y="1" width="3" height="1"/><rect x="1" y="2" width="1" height="1"/>
+    </g>
+    <!-- open book, 10x6 -->
+    <g id="book">
+      <rect x="0" y="1" width="1" height="5" fill="#7c4a2a"/><rect x="9" y="1" width="1" height="5" fill="#7c4a2a"/>
+      <rect x="1" y="5" width="8" height="1" fill="#7c4a2a"/>
+      <rect x="1" y="1" width="4" height="4" fill="#f5f0e1"/><rect x="5" y="1" width="4" height="4" fill="#f5f0e1"/>
+      <rect x="4" y="0" width="2" height="5" fill="#ffffff">
+        <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- firework burst (fill set per use) -->
+    <g id="fw">
+      <rect x="-1" y="-11" width="3" height="3"/><rect x="6" y="-8" width="3" height="3"/>
+      <rect x="9" y="-1" width="3" height="3"/><rect x="6" y="6" width="3" height="3"/>
+      <rect x="-1" y="9" width="3" height="3"/><rect x="-8" y="6" width="3" height="3"/>
+      <rect x="-11" y="-1" width="3" height="3"/><rect x="-8" y="-8" width="3" height="3"/>
+    </g>
+    <!-- crown, 8x3 -->
+    <g id="crown">
+      <rect x="0" y="2" width="8" height="1" fill="#f5b915"/>
+      <rect x="0" y="0" width="1" height="2" fill="#f5b915"/><rect x="3" y="0" width="2" height="2" fill="#f5b915"/><rect x="7" y="0" width="1" height="2" fill="#f5b915"/>
+      <rect x="3" y="1" width="2" height="1" fill="#ff5a5a"/>
+    </g>
+    <!-- warp pipe, 88x60 -->
+    <g id="pipe">
+      <rect x="8" y="18" width="72" height="42" fill="#2ea84f"/>
+      <rect x="14" y="18" width="10" height="42" fill="#74e393"/>
+      <rect x="68" y="18" width="12" height="42" fill="#17693a"/>
+      <rect x="0" y="0" width="88" height="20" fill="#2ea84f"/>
+      <rect x="6" y="0" width="10" height="20" fill="#74e393"/>
+      <rect x="76" y="0" width="12" height="20" fill="#17693a"/>
+    </g>
+    <!-- ? block, 44x44 -->
+    <g id="qblock">
+      <rect width="44" height="44" fill="#b57e0a"/>
+      <rect x="4" y="4" width="36" height="36" fill="#f5b915"/>
+      <rect x="8" y="8" width="4" height="4" fill="#7a5205"/><rect x="32" y="8" width="4" height="4" fill="#7a5205"/>
+      <rect x="8" y="32" width="4" height="4" fill="#7a5205"/><rect x="32" y="32" width="4" height="4" fill="#7a5205"/>
+      <text x="22" y="32" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#fff8e1">?</text>
+    </g>
+    <!-- coin, 6x6 -->
+    <g id="coin">
+      <rect x="1" width="4" height="6" fill="#f5b915"/><rect y="1" width="6" height="4" fill="#f5b915"/>
+      <rect x="2" y="2" width="2" height="2" fill="#b57e0a"/><rect x="1" y="1" width="1" height="1" fill="#fff3c4"/>
+    </g>
+  </defs>
+
+  <g font-family="'Courier New', monospace" font-weight="bold">
+
+  <!-- ═══════════ WORLD 1-1 · TUTORIAL ISLAND ═══════════ -->
+  <g>
+    <rect width="1200" height="240" fill="#0b1026"/>
+    <g fill="#cdd6f4">
+      <rect x="400" y="50" width="3" height="3"/><rect x="560" y="80" width="2" height="2"/><rect x="700" y="40" width="3" height="3"/>
+      <rect x="900" y="90" width="2" height="2"/><rect x="1010" y="150" width="2" height="2"/>
+      <rect x="620" y="130" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></rect>
+    </g>
+    <g transform="translate(1060,36) scale(4)" fill="#f0e9c9" opacity="0.9">
+      <rect x="2" y="0" width="3" height="1"/><rect x="1" y="1" width="5" height="1"/><rect x="0" y="2" width="7" height="3"/>
+      <rect x="1" y="5" width="5" height="1"/><rect x="2" y="6" width="3" height="1"/>
+      <rect x="2" y="2" width="1" height="1" fill="#d8cba4"/><rect x="4" y="3" width="1" height="1" fill="#d8cba4"/>
+    </g>
+    <text x="24" y="28" font-size="14" letter-spacing="2" fill="#cdd6f4">WORLD 1-1 · TUTORIAL ISLAND</text>
+    <text x="1176" y="28" text-anchor="end" font-size="12" letter-spacing="2" fill="#55627a">SAVE FILE · EST. 2018</text>
+
+    <rect x="0" y="200" width="1200" height="3" fill="#7fe3d2"/>
+    <rect x="0" y="203" width="1200" height="5" fill="#38bdae"/>
+    <rect x="0" y="208" width="1200" height="4" fill="#1c6e5f"/>
+    <rect x="0" y="212" width="1200" height="28" fill="url(#bricks)"/>
+
+    <!-- study corner: small pikachu + book + book stack + coffee -->
+    <g transform="translate(30,183)">
+      <rect x="0" y="2" width="26" height="5" fill="#c0455e"/><rect x="2" y="7" width="24" height="5" fill="#2f9e6e"/><rect x="-2" y="12" width="28" height="5" fill="#3b6fd4"/>
+    </g>
+    <g transform="translate(90,125) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.2" keyTimes="0;0.5" dur="1.6s" repeatCount="indefinite"/>
+      <use href="#pika"/>
+    </g>
+    <use href="#book" transform="translate(148,176) scale(4)"/>
+    <!-- XP bar -->
+    <text x="86" y="102" font-size="10" fill="#55627a">XP</text>
+    <rect x="104" y="94" width="72" height="10" fill="#05070f"/>
+    <rect x="106" y="96" width="12" height="6" fill="#38d970">
+      <animate attributeName="width" values="12;68;68" keyTimes="0;0.85;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- thought bubble: ? -> ! -->
+    <g>
+      <rect x="204" y="64" width="56" height="34" fill="#f0f4ff"/>
+      <rect x="196" y="100" width="8" height="6" fill="#f0f4ff"/><rect x="188" y="108" width="5" height="5" fill="#f0f4ff"/>
+      <text x="232" y="89" text-anchor="middle" font-size="22" fill="#1a1f3d">?
+        <animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" dur="3s" repeatCount="indefinite"/>
+      </text>
+      <text x="232" y="89" text-anchor="middle" font-size="22" fill="#c0455e">!
+        <animate attributeName="opacity" calcMode="discrete" values="0;1" keyTimes="0;0.5" dur="3s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <!-- coffee mug with steam -->
+    <rect x="300" y="188" width="14" height="12" fill="#7a4a1f"/><rect x="314" y="191" width="4" height="6" fill="#7a4a1f"/>
+    <rect x="303" y="172" width="3" height="3" fill="#cdd6f4">
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 6;0 -6" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="309" y="178" width="3" height="3" fill="#cdd6f4">
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 6;0 -6" dur="1.8s" begin="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- path chevrons -->
+    <text x="420" y="192" font-size="14" fill="#55627a">&gt;<animate attributeName="opacity" calcMode="discrete" values="1;0.2" keyTimes="0;0.5" dur="0.9s" repeatCount="indefinite"/></text>
+    <text x="470" y="192" font-size="14" fill="#55627a">&gt;<animate attributeName="opacity" calcMode="discrete" values="1;0.2" keyTimes="0;0.5" dur="0.9s" begin="0.3s" repeatCount="indefinite"/></text>
+    <text x="520" y="192" font-size="14" fill="#55627a">&gt;<animate attributeName="opacity" calcMode="discrete" values="1;0.2" keyTimes="0;0.5" dur="0.9s" begin="0.6s" repeatCount="indefinite"/></text>
+
+    <!-- first ? block with coin -->
+    <g transform="translate(560,90)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -6;0 0;0 0" keyTimes="0;0.06;0.12;1" dur="3s" repeatCount="indefinite"/>
+      <use href="#qblock"/>
+    </g>
+    <g transform="translate(572,60) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 4;0 -5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+      <use href="#coin"/>
+    </g>
+
+    <!-- walking to the first quest -->
+    <g transform="translate(760,110) scale(6)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.6" keyTimes="0;0.5" dur="0.7s" repeatCount="indefinite"/>
+      <use href="#pika"/>
+    </g>
+    <text x="808" y="96" text-anchor="middle" font-size="12" letter-spacing="1" fill="#ffd932">NEW QUEST ACCEPTED!
+      <animate attributeName="opacity" calcMode="discrete" values="1;0.15" keyTimes="0;0.6" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+
+    <use href="#pipe" transform="translate(1112,140)"/>
+    <text x="24" y="231" font-size="11" letter-spacing="1" fill="#d8b06a">&gt; QUEST LOG: READ. BUILD. BREAK. FIX. REPEAT.</text>
+  </g>
+
+  <!-- ═══════════ WORLD 1-2 · FREELANCE FIELDS ═══════════ -->
+  <g transform="translate(0,240)">
+    <rect width="1200" height="240" fill="#10163a"/>
+    <rect x="0" y="0" width="1200" height="2" fill="#05070f"/>
+    <g fill="#cdd6f4">
+      <rect x="150" y="60" width="2" height="2"/><rect x="420" y="40" width="3" height="3"/><rect x="1060" y="46" width="2" height="2"/>
+      <rect x="240" y="100" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></rect>
+    </g>
+    <text x="24" y="28" font-size="14" letter-spacing="2" fill="#cdd6f4">WORLD 1-2 · FREELANCE FIELDS</text>
+
+    <rect x="0" y="200" width="1200" height="3" fill="#7fe3d2"/>
+    <rect x="0" y="203" width="1200" height="5" fill="#38bdae"/>
+    <rect x="0" y="208" width="1200" height="4" fill="#1c6e5f"/>
+    <rect x="0" y="212" width="1200" height="28" fill="url(#bricks)"/>
+
+    <use href="#pipe" transform="translate(-20,140)"/>
+
+    <!-- marching website-project enemies -->
+    <g transform="translate(150,160) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;-1 0;-2 0;-1 0;0 0;1 0;2 0;1 0" dur="3.2s" repeatCount="indefinite"/>
+      <use href="#ebrow"/>
+    </g>
+    <g transform="translate(320,160) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;-1 0;-2 0;-1 0;0 0;1 0;2 0;1 0" dur="3.2s" begin="1.6s" repeatCount="indefinite"/>
+      <use href="#ebrow"/>
+    </g>
+
+    <!-- the stomp -->
+    <use href="#ebrowFlat" transform="translate(500,185) scale(5)"/>
+    <g transform="translate(485,95) scale(6)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -7.5;0 0" dur="1.2s" repeatCount="indefinite"/>
+      <use href="#pikaCheer"/>
+    </g>
+    <text x="580" y="84" font-size="13" fill="#ffd932">+100
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -16" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- coin trail -->
+    <g transform="translate(630,86) scale(4)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.2;0 0" dur="1.6s" repeatCount="indefinite"/><use href="#coin"/></g>
+    <g transform="translate(668,68) scale(4)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.2;0 0" dur="1.6s" begin="0.4s" repeatCount="indefinite"/><use href="#coin"/></g>
+    <g transform="translate(706,60) scale(4)"><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.2;0 0" dur="1.6s" begin="0.8s" repeatCount="indefinite"/><use href="#coin"/></g>
+
+    <!-- power-up: super stack shroom -->
+    <use href="#qblock" transform="translate(782,84)"/>
+    <g transform="translate(780,52) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 1.5;0 0;0 1.5" dur="2s" repeatCount="indefinite"/>
+      <use href="#shroomR"/>
+    </g>
+    <text x="804" y="40" text-anchor="middle" font-size="12" letter-spacing="1" fill="#ffd932">POWER UP!
+      <animate attributeName="opacity" calcMode="discrete" values="1;0.15" keyTimes="0;0.55" dur="0.9s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- flipped enemy -->
+    <use href="#ebrowFlat" transform="translate(855,200) scale(4,-4)"/>
+
+    <!-- full-stack rampage -->
+    <g fill="#cdd6f4" opacity="0.8">
+      <rect x="862" y="110" width="22" height="4"><animate attributeName="opacity" values="0;0.9;0" dur="0.7s" repeatCount="indefinite"/></rect>
+      <rect x="852" y="140" width="22" height="4"><animate attributeName="opacity" values="0;0.9;0" dur="0.7s" begin="0.25s" repeatCount="indefinite"/></rect>
+      <rect x="866" y="168" width="22" height="4"><animate attributeName="opacity" values="0;0.9;0" dur="0.7s" begin="0.5s" repeatCount="indefinite"/></rect>
+    </g>
+    <g transform="translate(900,80) scale(8)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.5" keyTimes="0;0.5" dur="0.5s" repeatCount="indefinite"/>
+      <use href="#pika"/>
+    </g>
+    <g fill="#fff6c9">
+      <use href="#spark" transform="translate(884,66) scale(3)"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></use>
+      <use href="#spark" transform="translate(1034,92) scale(3)"><animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="0.4s" repeatCount="indefinite"/></use>
+      <use href="#spark" transform="translate(896,196) scale(3)"><animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="0.7s" repeatCount="indefinite"/></use>
+    </g>
+    <!-- fleeing enemy escapes into the pipe -->
+    <g transform="translate(1064,168) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;15 0" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.7;1" dur="1.6s" repeatCount="indefinite"/>
+      <use href="#ebrow"/>
+    </g>
+
+    <use href="#pipe" transform="translate(1112,140)"/>
+    <text x="24" y="231" font-size="11" letter-spacing="1" fill="#d8b06a">&gt; 100+ WEBSITE MOBS CLEARED — SUPER STACK SHROOM ACQUIRED</text>
+  </g>
+
+  <!-- ═══════════ WORLD 2-1 · CRYPTO CAVERNS ═══════════ -->
+  <g transform="translate(0,480)">
+    <rect width="1200" height="240" fill="#1a1033"/>
+    <rect x="0" y="0" width="1200" height="2" fill="#05070f"/>
+    <g fill="#bf91f3">
+      <rect x="500" y="44" width="3" height="3"/><rect x="700" y="70" width="2" height="2"/>
+      <rect x="620" y="36" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></rect>
+    </g>
+    <g fill="#61dfff">
+      <rect x="860" y="50" width="2" height="2"/><rect x="70" y="70" width="2" height="2"/>
+    </g>
+    <text x="24" y="28" font-size="14" letter-spacing="2" fill="#cdd6f4">WORLD 2-1 · CRYPTO CAVERNS</text>
+
+    <!-- candlestick skyline -->
+    <g opacity="0.45">
+      <rect x="114" y="106" width="2" height="58" fill="#2f9e6e"/><rect x="110" y="118" width="10" height="34" fill="#2f9e6e"/>
+      <rect x="132" y="92" width="2" height="70" fill="#c0455e"/><rect x="128" y="102" width="10" height="50" fill="#c0455e"/>
+      <rect x="150" y="114" width="2" height="48" fill="#2f9e6e"/><rect x="146" y="124" width="10" height="28" fill="#2f9e6e"/>
+      <rect x="168" y="84" width="2" height="78" fill="#2f9e6e"/>
+      <rect x="164" y="96" width="10" height="56" fill="#2f9e6e">
+        <animate attributeName="y" values="96;122;96" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="56;30;56" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="186" y="118" width="2" height="44" fill="#c0455e"/><rect x="182" y="128" width="10" height="24" fill="#c0455e"/>
+      <rect x="204" y="76" width="2" height="86" fill="#2f9e6e"/><rect x="200" y="88" width="10" height="64" fill="#2f9e6e"/>
+    </g>
+
+    <rect x="0" y="200" width="1200" height="3" fill="#d9c1ff"/>
+    <rect x="0" y="203" width="1200" height="5" fill="#8a63d2"/>
+    <rect x="0" y="208" width="1200" height="4" fill="#4a3178"/>
+    <rect x="0" y="212" width="1200" height="28" fill="url(#bricksP)"/>
+
+    <use href="#pipe" transform="translate(-20,140)"/>
+
+    <!-- warning sign -->
+    <rect x="278" y="140" width="144" height="24" fill="#513217"/>
+    <rect x="282" y="144" width="136" height="16" fill="#7a4a1f"/>
+    <rect x="346" y="164" width="8" height="36" fill="#513217"/>
+    <text x="350" y="156" text-anchor="middle" font-size="10" letter-spacing="1" fill="#ffd932">VOLATILITY AHEAD</text>
+
+    <!-- pikachu duels a gas-fee imp -->
+    <g transform="translate(460,110) scale(6)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.4" keyTimes="0;0.5" dur="0.8s" repeatCount="indefinite"/>
+      <use href="#pika"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.6;0.8" dur="2.4s" repeatCount="indefinite"/>
+      <polyline points="556,146 592,140 586,152 622,146" fill="none" stroke="#ffe95c" stroke-width="4"/>
+      <polyline points="556,146 592,140 586,152 622,146" fill="none" stroke="#fffbe0" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(625,118) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.6;0 0" dur="2s" repeatCount="indefinite"/>
+      <use href="#imp"/>
+    </g>
+    <!-- bear market bear -->
+    <g transform="translate(690,155) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;-2 0;-4 0;-2 0;0 0" dur="2.8s" repeatCount="indefinite"/>
+      <use href="#bear"/>
+    </g>
+
+    <!-- power-up: mage shroom -->
+    <use href="#qblock" transform="translate(782,84)"/>
+    <g transform="translate(780,52) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 1.5;0 0;0 1.5" dur="2s" repeatCount="indefinite"/>
+      <use href="#shroomP"/>
+    </g>
+    <text x="804" y="40" text-anchor="middle" font-size="12" letter-spacing="1" fill="#bf91f3">POWER UP!
+      <animate attributeName="opacity" calcMode="discrete" values="1;0.15" keyTimes="0;0.55" dur="0.9s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- defi magician rampage -->
+    <g transform="translate(880,80) scale(8)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.5" keyTimes="0;0.5" dur="0.55s" repeatCount="indefinite"/>
+      <use href="#pika"/>
+    </g>
+    <use href="#wizhat" transform="translate(896,48) scale(8)"/>
+    <g opacity="0">
+      <animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0" keyTimes="0;0.55;0.65;0.75;0.9" dur="2.8s" repeatCount="indefinite"/>
+      <polyline points="1010,132 1058,112 1050,124 1098,102" fill="none" stroke="#ffe95c" stroke-width="4"/>
+      <polyline points="1006,160 1052,158 1046,168 1094,162" fill="none" stroke="#ffe95c" stroke-width="4"/>
+    </g>
+    <!-- gems raining -->
+    <g transform="translate(1030,28) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 18" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.75;1" dur="2.2s" repeatCount="indefinite"/>
+      <use href="#gem"/>
+    </g>
+    <g transform="translate(1090,10) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 20" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.75;1" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+      <use href="#gem"/>
+    </g>
+    <!-- bear flipped, imp fleeing -->
+    <use href="#bear" transform="translate(1044,200) scale(4,-4)"/>
+    <g transform="translate(1114,146) scale(4)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;12 0" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.7;1" dur="1.5s" repeatCount="indefinite"/>
+      <use href="#imp"/>
+    </g>
+
+    <use href="#pipe" transform="translate(1112,140)"/>
+    <text x="24" y="231" font-size="11" letter-spacing="1" fill="#d8b06a">&gt; BEAR MARKET FLED — DEFI MAGICIAN FORM UNLOCKED</text>
+  </g>
+
+  <!-- ═══════════ WORLD 3-1 · A.I. CITADEL ═══════════ -->
+  <g transform="translate(0,720)">
+    <rect width="1200" height="300" fill="#170d1d"/>
+    <rect x="0" y="0" width="1200" height="2" fill="#05070f"/>
+    <g fill="#4a2233">
+      <rect x="150" y="42" width="60" height="12"/><rect x="162" y="34" width="28" height="8"/>
+      <rect x="410" y="66" width="48" height="10"/><rect x="420" y="59" width="22" height="7"/>
+    </g>
+    <text x="24" y="28" font-size="14" letter-spacing="2" fill="#cdd6f4">WORLD 3-1 · A.I. CITADEL</text>
+    <text x="1176" y="28" text-anchor="end" font-size="12" letter-spacing="2" fill="#ff4f4f">FINAL BOSS
+      <animate attributeName="opacity" calcMode="discrete" values="1;0.2" keyTimes="0;0.6" dur="1s" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="0" y="240" width="1200" height="6" fill="#6b7891"/>
+    <rect x="0" y="246" width="1200" height="6" fill="#454c5e"/>
+    <rect x="0" y="252" width="1200" height="48" fill="url(#bricksD)"/>
+
+    <use href="#pipe" transform="translate(-20,180)"/>
+
+    <!-- boss arena (shakes when the laser fires) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 0;3 2;-3 1;2 2;0 0;0 0" keyTimes="0;0.15;0.19;0.23;0.27;0.31;1" dur="2.8s" repeatCount="indefinite"/>
+
+      <!-- player -->
+      <text x="200" y="86" font-size="10" letter-spacing="1" fill="#cdd6f4">TPIKACHU</text>
+      <rect x="198" y="90" width="98" height="13" fill="#55627a"/>
+      <rect x="200" y="92" width="94" height="9" fill="#05070f"/>
+      <rect x="202" y="94" width="90" height="5" fill="#ffd932">
+        <animate attributeName="width" calcMode="discrete" values="90;42;66;28;90" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <g transform="translate(210,135) scale(7)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -8;0 -8;0 0;0 0" keyTimes="0;0.12;0.3;0.45;1" dur="2.8s" repeatCount="indefinite"/>
+        <use href="#pika"/>
+        <use href="#wizhat" transform="translate(2,-4)"/>
+      </g>
+      <rect x="330" y="120" width="4" height="4" fill="#61dfff">
+        <animateTransform attributeName="transform" type="translate" values="0 0;8 -12" dur="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+
+      <text x="440" y="126" font-size="16" letter-spacing="2" fill="#f5b915">VS
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </text>
+
+      <!-- boss chest laser: fired low, jump to dodge -->
+      <g opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0.15;0.35" dur="2.8s" repeatCount="indefinite"/>
+        <rect x="322" y="196" width="276" height="6" fill="#ff4f4f"/>
+        <rect x="322" y="198" width="276" height="2" fill="#ffd6d6"/>
+        <rect x="586" y="190" width="12" height="18" fill="#ff9838"/>
+      </g>
+      <!-- pikachu counter-bolt -->
+      <g opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0" keyTimes="0;0.5;0.65;0.85" dur="2.8s" repeatCount="indefinite"/>
+        <polyline points="322,178 420,170 412,182 500,176 492,186 585,180" fill="none" stroke="#ffe95c" stroke-width="4"/>
+        <polyline points="322,178 420,170 412,182 500,176 492,186 585,180" fill="none" stroke="#fffbe0" stroke-width="1.5"/>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0" keyTimes="0;0.62;0.72;0.9" dur="2.8s" repeatCount="indefinite"/>
+        <use href="#fw" fill="#ff9838" transform="translate(592,182) scale(1.4)"/>
+      </g>
+
+      <!-- boss -->
+      <text x="632" y="62" text-anchor="middle" font-size="12" letter-spacing="2" fill="#ff4f4f">A.I. OVERLORD</text>
+      <rect x="570" y="68" width="124" height="14" fill="#55627a"/>
+      <rect x="572" y="70" width="120" height="10" fill="#05070f"/>
+      <rect x="574" y="72" width="116" height="6" fill="#ff4f4f">
+        <animate attributeName="width" calcMode="discrete" values="116;88;60;36;116" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <g transform="translate(548,86) scale(10)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -0.8;0 0" dur="2.4s" repeatCount="indefinite"/>
+        <use href="#robot"/>
+      </g>
+      <rect x="570" y="232" width="140" height="6" fill="#05070f" opacity="0.4">
+        <animate attributeName="width" values="140;112;140" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- castle gate between battle and victory -->
+    <rect x="782" y="44" width="16" height="16" fill="#3a3f4d"/><rect x="804" y="44" width="16" height="16" fill="#3a3f4d"/><rect x="826" y="44" width="16" height="16" fill="#3a3f4d"/>
+    <rect x="790" y="60" width="44" height="192" fill="url(#bricksD)"/>
+    <rect x="802" y="188" width="20" height="8" fill="#05070f"/>
+    <rect x="798" y="196" width="28" height="44" fill="#05070f"/>
+
+    <!-- victory garden -->
+    <rect x="840" y="30" width="360" height="210" fill="#ff6fa5" opacity="0.05"/>
+    <g transform="translate(900,70)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="0.2;1.15" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/>
+        <use href="#fw" fill="#ffd932"/>
+      </g>
+    </g>
+    <g transform="translate(1030,46)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="0.2;1.15" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+        <use href="#fw" fill="#ff6fa5"/>
+      </g>
+    </g>
+    <g transform="translate(1130,92)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="0.2;1.15" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+        <use href="#fw" fill="#61dfff"/>
+      </g>
+    </g>
+
+    <!-- champion + new ally -->
+    <g transform="translate(880,150) scale(6)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" calcMode="discrete" values="0 0;0 -0.6" keyTimes="0;0.5" dur="0.7s" repeatCount="indefinite"/>
+      <use href="#pikaCheer"/>
+    </g>
+    <use href="#crown" transform="translate(906,153) scale(7)"/>
+    <g transform="translate(985,150) scale(4)" fill="#ff6fa5" opacity="0">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 2;0 -4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.2s" repeatCount="indefinite"/>
+      <use href="#heart"/>
+    </g>
+    <g transform="translate(1000,182) scale(5)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -1.2;0 0" dur="2s" repeatCount="indefinite"/>
+      <use href="#buddy"/>
+    </g>
+
+    <!-- party sign -->
+    <rect x="1078" y="148" width="120" height="38" fill="#513217"/>
+    <rect x="1082" y="152" width="112" height="30" fill="#7a4a1f"/>
+    <rect x="1134" y="186" width="8" height="54" fill="#513217"/>
+    <text x="1138" y="165" text-anchor="middle" font-size="10" fill="#fff8e1">NEW PARTY</text>
+    <text x="1138" y="177" text-anchor="middle" font-size="10" fill="#fff8e1">MEMBER: A.I.</text>
+
+    <text x="24" y="291" font-size="11" letter-spacing="1" fill="#d8b06a">&gt; COULDN'T BEAT THE A.I. — RECRUITED IT INSTEAD</text>
+    <text x="1176" y="291" text-anchor="end" font-size="10" letter-spacing="1" fill="#55627a">P.S. THE PRINCESS IS IN ANOTHER REPO</text>
+  </g>
+
+  </g>
+</svg>

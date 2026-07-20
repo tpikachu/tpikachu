@@ -1,116 +1,73 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="tpikachu — AI × Blockchain × Full-Stack"/>
-
-<a href="https://github.com/tpikachu">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2800&pause=700&color=70A5FD&center=true&vCenter=true&width=700&lines=Building+AI-powered+products+with+LLMs%2C+RAG+%26+Agents;Shipping+dApps+across+every+EVM+network+%26+Solana;Crafting+cross-platform+desktop+apps+with+Electron;TypeScript+%E2%80%A2+Python+%E2%80%A2+Rust+%E2%80%A2+Go+%E2%80%A2+Solidity" alt="Typing SVG" />
-</a>
+<img src="assets/hero.svg" width="100%" alt="tpikachu — A WILD DEVELOPER APPEARED! Press start to collaborate."/>
 
 <br/>
 
 <a href="mailto:redtortuga91@gmail.com"><img src="https://img.shields.io/badge/Email-redtortuga91%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://stackoverflow.com/users/10909844/tpikachu"><img src="https://img.shields.io/badge/Stack_Overflow-tpikachu-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/></a>
-<img src="https://img.shields.io/badge/Open_to-Opportunities-38bdae?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to opportunities"/>
-
-<img src="https://komarev.com/ghpvc/?username=tpikachu&style=for-the-badge&color=70a5fd&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://img.shields.io/badge/Status-Accepting_Co--op_Requests-38bdae?style=for-the-badge&logoColor=white" alt="Open to opportunities"/>
 
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🧬 About Me
+## 🎮 Player 1: tpikachu
 
-```typescript
-const tpikachu = {
-  role: "Full-Stack Engineer — AI × Blockchain",
-  languages: ["TypeScript", "Python", "Rust", "Go", "Solidity"],
-  ai: ["LLM apps", "RAG pipelines", "AI Agents", "MCP", "Speech-to-Text"],
-  web3: ["Every EVM network & L2", "Solana"],
-  fullStack: ["React", "Node.js", "GraphQL", "Electron"],
-  currentFocus: ["AI", "Blockchain", "Full-Stack Development"],
-  funFact: "My commits are faster than a Pikachu's Quick Attack ⚡",
-} as const;
-```
+Full-stack engineer on a main quest through **AI** and **blockchain** — inventory permanently full of side projects.
 
-- 🤖 &nbsp;Building **AI-powered products** — LLM integrations, RAG pipelines, autonomous agents & MCP servers
-- ⛓️ &nbsp;Shipping **smart contracts & dApps** on every EVM chain, L2 rollups and **Solana**
-- 🖥️ &nbsp;Delivering **full-stack products** — React/Vue frontends, Node.js/GraphQL backends, Electron desktop apps
-- 📊 &nbsp;Indexing on-chain data with **The Graph** and custom indexers
-- 💬 &nbsp;Ask me about **TypeScript, LLM tooling, EVM internals, or Electron**
+- ⚡ **Special move** — shipping LLM apps, RAG pipelines & AI agents before the hype cycle ends
+- ⛓️ **Current map** — smart contracts & dApps across EVM chains and Solana (fast travel unlocked)
+- 🖥️ **Equipment** — React/Vue frontends, Node.js/GraphQL backends, Electron desktop apps (+10 Shipping Speed)
+- 🛒 **Merchant guild** — Shopify & eCommerce builds; my checkout flows have a 100% speedrun completion rate
+- 🐛 **Battle record** — 999,999 bugs defeated; only 3 were mine (git blame disagrees)
+- ☕ **Weakness** — merge conflicts before coffee
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🛠️ Tech Arsenal
+## 🗺️ Story Mode
 
-<div align="center">
+<sub>career.exe — based on a true story. The bugs were real.</sub>
 
-### 🤖 AI & LLM Engineering
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark" alt="AI core"/>
+<img src="assets/career-map.svg" width="100%" alt="Career map in 8-bit platformer style: World 1-1 Tutorial Island (reading and studying since 2018) → World 1-2 Freelance Fields (stomping website projects, Super Stack Shroom power-up, full-stack rampage) → World 2-1 Crypto Caverns (fighting gas-fee imps and the bear market, DeFi Magician power-up) → World 3-1 A.I. Citadel (final boss fight against the A.I. Overlord — couldn't beat it, so recruited it instead). P.S. the princess is in another repo."/>
 
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"/>
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
-<img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
-<img src="https://img.shields.io/badge/RAG_·_Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" alt="RAG / Qdrant"/>
-<img src="https://img.shields.io/badge/Whisper_STT-4B5563?style=for-the-badge" alt="Whisper"/>
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-### 💻 Languages
-<img src="https://skillicons.dev/icons?i=ts,js,python,rust,go,solidity&theme=dark" alt="Languages"/>
+## 🌳 Skill Tree
 
-### 🎨 Frontend & Desktop
-<img src="https://skillicons.dev/icons?i=react,vue,electron,vite,tailwind,sass&theme=dark" alt="Frontend & Desktop"/>
+<sub>All points allocated. No respec available.</sub>
 
-### ⚙️ Backend & Databases
-<img src="https://skillicons.dev/icons?i=nodejs,graphql,postgres,mysql,mongodb,sqlite&theme=dark" alt="Backend & Databases"/>
+| | |
+|---|---|
+| **Languages** | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/> <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity"/> |
+| **AI & LLM** | <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/> <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude"/> <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/> <img src="https://img.shields.io/badge/MCP-111111?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/> <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant"/> <img src="https://img.shields.io/badge/Whisper-4B5563?style=flat-square" alt="Whisper"/> |
+| **Web3** | <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" alt="Ethereum"/> <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana"/> <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethers&logoColor=white" alt="Ethers.js"/> <img src="https://img.shields.io/badge/Wagmi-000000?style=flat-square&logo=wagmi&logoColor=white" alt="Wagmi"/> <img src="https://img.shields.io/badge/Hardhat-FFF04D?style=flat-square" alt="Hardhat"/> <img src="https://img.shields.io/badge/Foundry-1E1E1E?style=flat-square" alt="Foundry"/> <img src="https://img.shields.io/badge/The_Graph-6747ED?style=flat-square&logo=thegraph&logoColor=white" alt="The Graph"/> <img src="https://img.shields.io/badge/Chainlink-375BD2?style=flat-square&logo=chainlink&logoColor=white" alt="Chainlink"/> <img src="https://img.shields.io/badge/Alchemy-0C0C0E?style=flat-square&logo=alchemy&logoColor=white" alt="Alchemy"/> |
+| **E-Commerce** | <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify"/> <img src="https://img.shields.io/badge/eCommerce_Dev-Full_Storefronts-bf91f3?style=flat-square" alt="eCommerce development"/> <img src="https://img.shields.io/badge/Checkout_Speedrun-World_Record-f5b915?style=flat-square" alt="Checkout speedrun world record"/> |
+| **Frontend & Desktop** | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/> |
+| **Backend & Databases** | <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/> |
+| **DevOps** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"/> |
 
-### 🚀 DevOps
-<img src="https://skillicons.dev/icons?i=docker,githubactions,jenkins,git&theme=dark" alt="DevOps"/>
-
-### ⛓️ Web3 — every EVM network & L2, plus Solana
+### 🗺️ World Select
 
 <img src="assets/chains.svg" width="100%" alt="Ethereum · Arbitrum · Optimism · Base · Polygon · zkSync · Scroll · Linea · BNB Chain · Avalanche · Solana"/>
 
-<img src="https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white" alt="Ethers.js"/>
-<img src="https://img.shields.io/badge/Wagmi-000000?style=for-the-badge&logo=wagmi&logoColor=white" alt="Wagmi"/>
-<img src="https://img.shields.io/badge/Hardhat-FFF04D?style=for-the-badge&logoColor=black" alt="Hardhat"/>
-<img src="https://img.shields.io/badge/Foundry-1E1E1E?style=for-the-badge" alt="Foundry"/>
-<img src="https://img.shields.io/badge/The_Graph-6747ED?style=for-the-badge" alt="The Graph"/>
-<img src="https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white" alt="Chainlink"/>
-<img src="https://img.shields.io/badge/Alchemy-0C0C0E?style=for-the-badge&logo=alchemy&logoColor=white" alt="Alchemy"/>
-
-</div>
+<sub>All chains cleared. New Game+ unlocked.</sub>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 📊 GitHub Analytics
+## 💬 NPC Wisdom
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tpikachu&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=1a1b27" height="170" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=tpikachu&theme=tokyonight&hide_border=true&background=1a1b27" height="170" alt="Streak Stats"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random quote from a professional developer"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tpikachu&layout=compact&hide=java,html&langs_count=8&theme=tokyonight&hide_border=true&bg_color=1a1b27" height="170" alt="Top Languages"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tpikachu&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true" width="95%" alt="Contribution Graph"/>
+<sub>Random wisdom from a professional dev — new dialogue on every visit. NPCs know things.</sub>
 
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=tpikachu&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
-
-</div>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 🐍 Contribution Snake
+## 🐍 Bonus Level
 
 <div align="center">
 
@@ -120,32 +77,22 @@ const tpikachu = {
   <img src="https://raw.githubusercontent.com/tpikachu/tpikachu/output/github-contribution-grid-snake.svg" alt="Contribution snake" width="90%"/>
 </picture>
 
+<sub>A snake eats my contributions every night at midnight. This is intentional. Mostly.</sub>
+
 </div>
 
-<br/>
+<img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 
-### 💡 Random Dev Quote
+<img src="assets/pikachu-happy.svg" width="170" alt="Happy pixel pikachu cheering — thanks for visiting!"/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
-
-<br/><br/>
-
-**Thanks for stopping by! ⚡ Let's build something great together.**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdae,50:bf91f3,100:70a5fd&height=120&section=footer" width="100%"/>
+🕹️ **CONTINUE?** 9… 8… 7… — <a href="mailto:redtortuga91@gmail.com">**PRESS START**</a> before the countdown ends.
 
 </div>
 
 <!-- Resources -->
-<!-- Custom animated SVGs: assets/hero.svg, assets/divider.svg, assets/chains.svg -->
-<!-- Typing SVG: https://github.com/DenverCoder1/readme-typing-svg -->
-<!-- Skill Icons: https://skillicons.dev -->
-<!-- GitHub Stats: https://github.com/anuraghazra/github-readme-stats -->
-<!-- Streak: https://github.com/DenverCoder1/github-readme-streak-stats -->
-<!-- Activity Graph: https://github.com/Ashutosh00710/github-readme-activity-graph -->
-<!-- Trophies: https://github.com/ryo-ma/github-profile-trophy -->
-<!-- Snake: https://github.com/Platane/snk -->
-<!-- Footer: https://github.com/kyechan99/capsule-render -->
-<!-- Shields: https://shields.io -->
+<!-- Hero, career map, divider, world-select marquee & happy pikachu: custom 8-bit SVGs in assets/ -->
+<!-- Badges: https://shields.io -->
+<!-- Quote: https://github.com/PiyushSuthar/github-readme-quotes -->
+<!-- Snake: https://github.com/Platane/snk (workflow in .github/workflows/snake.yml) -->
